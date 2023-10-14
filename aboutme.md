@@ -1,6 +1,6 @@
 ---
 layout: page
-cover-img: assets/img/Banner.jpg
+cover-img: assets/img/innovation_centre.jpg
 title: About me
 ---
 
