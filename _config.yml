@@ -41,7 +41,7 @@ round-avatar: true
 #  email: "someone@example.com"
 
 #  reddit: yourname
-#  linkedin: daattali
+linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -55,8 +55,8 @@ round-avatar: true
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
+ORCID: your ORCID ID
+google-scholar: your google scholar
 
 # --- General options --- #
 
