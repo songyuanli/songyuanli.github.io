@@ -1,6 +1,6 @@
 ---
 layout: page
-cover-img: assets/img/innovation_centre.jpg
+cover-img: assets/img/Songyuan.jpg
 title: About me
 ---
 
