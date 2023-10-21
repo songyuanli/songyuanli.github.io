@@ -46,10 +46,12 @@ title-img: "/assets/img/uoe-logo.svg"
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
-
+  email: S.Y.Li@exeter.ac.uk
+  linkedin: songyuan-li-02b29513a
+  ORCID: 0000-0002-8688-1026
+  google-scholar: cESBqqkAAAAJ
 #  reddit: yourname
-# linkedin: daattali
+
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -63,8 +65,6 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
 
 
 # --- General options --- #
