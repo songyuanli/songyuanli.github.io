@@ -249,10 +249,8 @@ scholar:
   join_strings: true
   
   use_raw_bibtex_entry: true
-  bibtex_filters:
+  bibtex_filters: [latex, smallcaps, superscript]
 
-  superscript
-  latex
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details
