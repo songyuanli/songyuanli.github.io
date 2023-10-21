@@ -1,6 +1,6 @@
 ---
 layout: page
-cover-img: assets/img/Songyuan.jpg
+cover-img: {"assets/img/Songyuan.jpg": "River Teign, Drewsteignton, U.K."}
 title: About me
 ---
 
