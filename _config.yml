@@ -42,19 +42,11 @@ title-img: "/assets/img/uoe-logo.svg"
 
 # --- Footer options --- #
 
-author:
-  name: Pascal van Kooten
-  email: "kootenpv@gmail.com"
-  github: kootenpv
-  linkedin: pub/pascal-van-kooten/53/a68/b80
-  stackoverflow: users/1575066/pascalvkooten
-  twitter: kootenpv
-
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
-# social-network-links:
-#  email: "someone@example.com"
+social-network-links:
+  email: "someone@example.com"
 
 #  reddit: yourname
 # linkedin: daattali
@@ -74,15 +66,6 @@ author:
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 
-# Select which links to show in the footer
-footer-links-active:
-  rss: false
-  facebook: false
-  email: true
-  twitter: true
-  github: true
-  linkedin: true
-  stackoverflow: true
 
 # --- General options --- #
 
