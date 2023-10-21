@@ -12,7 +12,6 @@ author: Songyuan Li
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: aboutme
   Publication: publication
   Research:
     - Sketch: research
@@ -20,7 +19,7 @@ navbar-links:
     - Talks: talks
     - Services: services
   Songyuan Li: 
-    - About: about
+    - About: aboutme
     - Awards: awards
     - Teaching: teaching
     - Bio & CV: biography
