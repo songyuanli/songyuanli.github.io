@@ -74,6 +74,8 @@ link-tags: true
 # Excerpt Word Length - Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 50
 
+icon: "/assets/img/uoe-logo.png"
+
 # --- Colours / background image --- #
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
