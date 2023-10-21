@@ -30,5 +30,5 @@ gem "rexml"
 
 gem "kramdown-parser-gfm"
 
-gemspec
+
 
