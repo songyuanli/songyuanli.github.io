@@ -12,10 +12,18 @@ author: Songyuan Li
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  My Team: "team"
-  Publication: "publication"
-  Research: "research"
+  Publication: publication
+  Research:
+    - Sketch: research
+    - Projects: projects
+    - Talks: talks
+    - Services: services
+  Songyuan Li: 
+    - About: about
+    - Awards: awards
+    - Teaching: teaching
+    - Bio & CV: biography
+    - Contact: contact
  # Author's home: "https://lydiaychen.com"
 
 # --- Logo --- #
