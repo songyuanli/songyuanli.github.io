@@ -12,6 +12,7 @@ author: Songyuan Li
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  About Me: aboutme
   Publication: publication
   Research:
     - Sketch: research
@@ -70,8 +71,8 @@ author:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-# ORCID: your ORCID ID
-# google-scholar: your google scholar
+#  ORCID: your ORCID ID
+#  google-scholar: your google scholar
 
 # Select which links to show in the footer
 footer-links-active:
