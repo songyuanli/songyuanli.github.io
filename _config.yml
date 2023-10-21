@@ -65,6 +65,16 @@ linkedin: daattali
 ORCID: your ORCID ID
 google-scholar: your google scholar
 
+# Select which links to show in the footer
+footer-links-active:
+rss: false
+facebook: false
+email: true
+twitter: true
+github: true
+linkedin: true
+stackoverflow: true
+
 # --- General options --- #
 
 # Select which social network share links to show in posts
