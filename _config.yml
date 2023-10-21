@@ -29,8 +29,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-#title-img: /path/to/image
-
+title-img: "/assets/img/uoe-logo.svg"
 
 # --- Footer options --- #
 
@@ -74,7 +73,6 @@ link-tags: true
 # Excerpt Word Length - Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 50
 
-icon: "/assets/img/uoe-logo.png"
 
 # --- Colours / background image --- #
 
