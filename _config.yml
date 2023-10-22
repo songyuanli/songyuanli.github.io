@@ -253,7 +253,7 @@ scholar:
   # type_order: thesis,article,inproceedings,techreport
   # group_order: none
 
-  source: /_bibliography/
+  source: .
   bibliography: papers.bib
   bibliography_template: bib
 
