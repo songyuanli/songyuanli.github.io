@@ -240,6 +240,9 @@ plugins:
 
 scholar:
 
+  last_name: [Qiu]
+  first_name: [Chenxi]
+
   style: apa
   locale: en
 
