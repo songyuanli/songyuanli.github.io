@@ -5,11 +5,11 @@ source "https://rubygems.org"
 gem "rexml"
 
 gem "kramdown-parser-gfm"
-gem "kramdown"
+gem "kramdown", "~> 2.0"
 
 group :jekyll_plugins do
     gem 'jekyll', "3.8.5"
-    gem "jekyll-sass-converter", "~> 1.0"
+    gem "jekyll-sass-converter", "~> 2.7"
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
