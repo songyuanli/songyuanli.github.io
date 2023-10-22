@@ -18,7 +18,6 @@ Authors with * are the students in our lab.
 
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography %}
 {% endfor %}
 
 </div>
