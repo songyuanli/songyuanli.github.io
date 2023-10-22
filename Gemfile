@@ -5,6 +5,7 @@ source "https://rubygems.org"
 gem "rexml"
 
 gem "kramdown-parser-gfm"
+gem "kramdown"
 
 group :jekyll_plugins do
     gem 'jekyll'
@@ -28,5 +29,5 @@ group :other_plugins do
     gem 'feedjira'
 end
 
-gemspec
+# gemspec
 
