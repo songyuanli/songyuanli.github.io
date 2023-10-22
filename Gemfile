@@ -6,6 +6,8 @@ gem "rexml"
 
 gem "kramdown-parser-gfm"
 
+gem "jekyll-archives"
+
 gem 'jekyll-scholar', group: :jekyll_plugins
 
 gemspec
