@@ -243,12 +243,12 @@ scholar:
   style: apa
   locale: en
 
-  #sort_by: year
-  #order: descending
+  sort_by: year
+  order: descending
 
-  #group_by: type
-  #type_order: thesis,article,inproceedings,techreport
-  #group_order: none
+  group_by: type
+  type_order: thesis,article,inproceedings,techreport
+  group_order: none
 
   source: ./_bibliography
   bibliography: papers.bib
@@ -257,7 +257,7 @@ scholar:
   replace_strings: true
   join_strings: true
   
-  # use_raw_bibtex_entry: true
+  use_raw_bibtex_entry: true
   bibtex_filters: [latex, smallcaps, superscript]
 
   details_dir: bibliography
