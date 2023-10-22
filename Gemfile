@@ -5,7 +5,7 @@ source "https://rubygems.org"
 gem "rexml"
 
 gem "kramdown-parser-gfm"
-gem "kramdown", "~> 2.0"
+gem "kramdown", "~> 1.14"
 
 group :jekyll_plugins do
     gem 'jekyll', "3.8.5"
