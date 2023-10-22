@@ -228,7 +228,7 @@ plugins:
   - jekyll-imagemagick
   - jekyll-minifier
   - jekyll-paginate-v2
-  - jekyll-scholar
+  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-link-attributes
   - jekyll-twitter-plugin
@@ -253,7 +253,7 @@ scholar:
   # type_order: thesis,article,inproceedings,techreport
   # group_order: none
 
-  source: .
+  source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
 
