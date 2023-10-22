@@ -8,7 +8,7 @@ gem "kramdown-parser-gfm"
 gem "kramdown"
 
 group :jekyll_plugins do
-    gem 'jekyll'
+    gem 'jekyll', "~<= 3.9.3"
     gem "jekyll-sass-converter", "~> 2.0"
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
