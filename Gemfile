@@ -26,7 +26,5 @@ group :jekyll_plugins do
     gem 'webrick'
 end
 
-bundle add webrick
-
 # gemspec
 
