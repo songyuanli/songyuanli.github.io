@@ -3,7 +3,6 @@
 source "https://rubygems.org"
 
 gem "rexml"
-
 gem "kramdown-parser-gfm"
 gem "kramdown"
 
