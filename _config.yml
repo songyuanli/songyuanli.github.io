@@ -1,5 +1,7 @@
 # --- Basic options --- #
 
+encoding: utf-8
+
 # Name of website
 title: Songyuan Li | Uni. Exeter
 
@@ -12,19 +14,18 @@ author: Songyuan Li @ Uni. Exeter
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Publication: publication
+  Publications: publications
   Research:
-    - Sketch: research
+    - Overview: research
     - Projects: projects
     - Talks: talks
     - Services: services
   Songyuan Li: 
-    - About: aboutme
+    - About Me: index.html
+    - Bio & CV: biography
     - Awards: awards
     - Teaching: teaching
-    - Bio & CV: biography
-    - Contact: contact
- # Author's home: "https://lydiaychen.com"
+    - Contact Me: contact
 
 # --- Logo --- #
 
@@ -81,7 +82,7 @@ url-pretty: "S.Y.Li@exeter.ac.uk"
 link-tags: true
 
 # Excerpt Word Length - Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 150
 
 
 # --- Colours / background image --- #
@@ -182,11 +183,14 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Europe/UK"
+timezone: "Europe/London"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 
+# Pagination
+pagination:
+  enabled: true
 
 kramdown:
   input: GFM
@@ -239,43 +243,39 @@ plugins:
 # -----------------------------------------------------------------------------
 
 scholar:
-
-  last_name: [Qiu]
-  first_name: [Chenxi]
+  source: /_bibliography/
 
   style: apa
   locale: en
 
-  # sort_by: year
-  # order: descending
+  last_name: [Li]
+  first_name: [Songyuan]
 
-  # group_by: type
-  # type_order: thesis,article,inproceedings,techreport
-  # group_order: none
 
-  source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
+  # Note: if you have latex math in your bibtex, the latex filter
+  # preprocessing may conflict with MathJAX if the latter is enabled.
+  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibtex_filters: [latex, smallcaps, superscript]
 
   replace_strings: true
   join_strings: true
-  
-  # use_raw_bibtex_entry: true
-  bibtex_filters: [latex, smallcaps, superscript]
 
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details
 
   query: "@*"
-  
 
-  # Filter out certain bibtex entry keywords used internally from the bib output
-  filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
+# Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 
-  # Maximum number of authors to be shown for each publication (more authors are visible on click)
-  max_author_limit: 3  # leave blank to always show all authors
-  more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
+# Maximum number of authors to be shown for each publication (more authors are visible on click)
+max_author_limit: 3  # leave blank to always show all authors
+more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
+
+
 
 
 # Beautiful Jekyll / Dean Attali

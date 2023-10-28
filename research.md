@@ -1,199 +1,140 @@
 ---
 layout: page
-title: Research
+cover-img: 
+  - "assets/img/research_wordcloud.jpg": "Research Keywords (as of November 2023)"
+title: Research Overview
 ---
+
+<a name="top"></a>
+
+{% assign bib_file = 'simple.bib' %}
+
+<style>
+h3 {
+	color: #007d69;
+	margin-top: 0.7em;
+	margin-bottom: 0.3em;
+	padding-bottom: 0.2em;
+	line-height: 1.0;
+	padding-top: 0.5em;
+	border-bottom: 1px solid #00dca5;
+}
+
+p {  
+    line-height: 1.5;
+    margin: 0;
+    text-align: justify;
+}
+</style>
+
+<strong><u>At a Glance</u></strong><b>:</b> &nbsp;
+<a href="/research">Research Overview</a>&nbsp; · &nbsp; <a href="/projects">Research Projects</a> &nbsp; · &nbsp; <a href="/publications">Publications</a> &nbsp; · &nbsp; <a href="/talks">Invited Talks</a> &nbsp; · &nbsp; <a href="/services">Professional Services</a>
+
+<h3>Summary</h3>
+<p>My research focus includes</p>
 {::options parse_block_html="true" /}
-<a name="top"></a> 
+- [Web Service Selection, Composition, and Recommendation](#web): QoS evaluation and optimization of workflows, Concurrent service selection based on service ecosystem
+- [Cloud Resource Pricing, and Demand Allocation](#cloud): QoS awareness, Resource management, Task scheduling, Market-oriented cloud resource pricing strategy, Demand response
+- [Fog Computing, and Mobile Edge Computing](#fog): QoS/QoE awareness, Edge resource management, Task routing & scheduling, Multi-user/service provider gaming, Efficient/Decentralized solution
+- [Edge Intelligence, and Federated Learning](#edge_ai): Edge Intelligence, and Federated Learning: Synergistic DNN inference and training, Multi-exit DNN inference at edge, Edge-AI market design
 
+<a name="web"></a> 
+<h3>Web Service Selection, Composition, and Recommendation</h3>
 
-Our research themes span in the following areas. 
+The increasing momentum of service-oriented architecture has led to the emergence of divergent delivered services, where service selection is meritedly required to obtain the target service fulfilling the requirements from both users and service providers. I target to fill the research gap in the case where service requests from multiple users are performed simultaneously by a certain set of shared candidate services, although many existing works have extensively handled the issue of service selection. Meanwhile, I consider the constraints enforced on the context of service selection, such as, service placement location and contracts between users and service providers. In this sense, I propose a QoS-aware service selection scheme with constraints from a fairness aspect, with the objective of achieving max-min fairness across multiple service requests. In specific, I formulate this problem as a lexicographical maximization problem, which is yet far from trivial to deal with practically due to its inherently multi-objective and discrete nature. Given this, I develop an efficient fairness-aware algorithm for concurrent service selection, whose basic idea is to iteratively solve the single-objective subproblems by transforming them into linear programming problems. This work has been published in the IEEE ICWS 2019.
 
-- [Generative models](#Generative)
-- [Robust, and private learning](#RPFlearning)
-- [Federated learning systems](#eLInf)
-<!--- [Resourcement managment for deep neural networks systems](#resource)-->
+<br>
+<div class="row col-sm-6" style="text-align: center;">
+   <img src="{{ '/assets/img/service_selection.png' | relative_url }}" alt="Figure: Web Service Selection, Composition, and Recommendation"/>
+</div>
+<br>
 
-
-
-# Generative Models<a name="Generative"></a>
-
-While big data is powering up the deep learning models, it is costly and inevitably intrudes privacy to curate such data. Synthetically generated data not only alleviates the cost of collecting data but also overcome the privacy concerns and legislation boundary. How to generate synthetic data that fulfilll the requirements of data similarity, analysis utility, privacy and generalization?
-
-We are exploring a wide range of generative models for synthesizing tabular data, ranging from Generative Adversarial Networks (GANs), latent difussion, flow models, and large language models. 
-We are also actively collaborating with various industrial partners to explore synthetic data as a privacy-preserving data sharing solution, such as major European energy companies, and finacial companies. 
-
-<!--
-In this line of research, we are designing various 
-
--->
-
-# Robust, and Private Learning<a name="RPFlearning"></a> 
-
-Artificial intelligence (AI) and machine learning (ML) are ubiquitous in our daily lives in the form of search engines, machine translation, self-driving cars and much more. The prevailing assumptions of existing ML algorithms are that data is neutral and can be freely accessed (without breaching privacy). As a result, the existing algorithms fall short of addressing challenges in realistic scenarios, i.e., against adversarial examples, dirty data, and unreliable execution environments while still preserving data privacy. These issues are further exacerbated by large and distributed learning problems, the data for which is collected over multiple sources and must be computed on distributed nodes.
-
-In this line of research, we are designing robust, privacy-preserving and fair learning algorithms. Topics include:
-- [Robust Machine Learning](#Robust): designing learning algorithms that are robust to dirty data inputs.
-- [Adversarial Attacks and Defenses](#Attack): designing adversarial attacks and defense mechanisms for deployed deep models.
-- Differential private (deep) learning: designing effective differential private ML models with precise accuracy accounting.
-<!--
-- [Fair Information Maximization on Social Media](#FairIM) designing learning algorithms that can be debiased, for example in terms of gender or race, via data selection and objective modification of learning algorithms.
-  -->
-<figure>
- <a href="#top">
-  <img src="../assets/img/top.png" alt="top" style="float: right;" width="30" height="30">
- </a>
-</figure>
-
-# Federated Learning <a name="eLInf"></a> 
-Data is constantly generated and collected by edge devices (of the network) to power up today’s AI and ML analyses. With the advancement of algorithmic compression techniques and hardware technology, the ability to train neural networks and run inference on edge devices has gone from myth to reality. Federated learning (FL) is an emerging learning paradigm where distributed edge nodes collaboratively learn the weights of neural networks iteratively without directly sharing data. It is largely unexplored how existing deep learning algorithms can be realized within a FL framework, thereby overcoming network communications and adversarial threats. Moreover, owing to the vast number of available trained models and highly heterogeneous mobile devices, it is no mean feat to identify and deploy the right model for individual edge devices.
-
-In this line of research, we are designing learning algorithms and prototyping system solutions for ML training and inference on distributed edge devices. Topics include:
-
-- [Confidential Vertical Learning for Manufacturer](#Federated): collaborating with the world leading material manufacturers to design confidential vertical fedearated learning on variety of machine learning models
-- [Attacks and Defenses in Federated Learning](#attacks): designing data free model poinsoning attacks, gradient inversion attacks, and freerider attacks for various federated learning systems
-- [Continue Fedearated Learning and Domain Adaptation](#CLDA): designing federated learning systems that tackle two foundemntal challenges in real life: data continitously evovles through different domains and learning tasks also change over time. 
-- [Deep Model Inferences on Edge Devices](#EdgeInf): designing and prototyping an inference engine that can search for optimal models and configurations for edge devices at scale.
+<h4>Research Outputs:</h4>
+<div class="publications" style="margin: 0;">
+{% bibliography -f {{bib_file}} -q @*[doi=10.1109/ICWS.2019.00051]* %}
+</div>
 
 <figure>
  <a href="#top">
   <img src="../assets/img/top.png" alt="top" style="float: right;" width="30" height="30">
  </a>
 </figure>
+<br>
 
+<a name="cloud"></a> 
+<h3>Cloud Resource Pricing, and Demand Allocation</h3>
 
-<!--# System and Data Management for Deep Learning <a name="resource"></a> 
-There is a surging number of deep training/inference jobs, e.g., convolutionary networks to classify images, and the large language models to generate text, running on cloud datacenters and edge devices. Their dounting computation overhead raises questions about how to design resource management policies for such clusters such that running deep network training/inference jobs is truly accessible, sustainable, and affordable for the public. 
+For a cloud service provider (CSP), it necessitates an emerging cloud ecosystem to both consolidate numerous cloud users and earn great revenue from users, further gaining its market share and achieving profitablity. Therefore, I design a price-incentive resource auction mechanism in cloud environment. In response to the cloud resource price, each user synthesizes her bidding budget and QoS requirement, and purchases cloud resources according to her resource demand in a strategic manner. The CSP, meanwhile, can regulate the resource demands of users through conducting a market-oriented pricing strategy, against too low prices to cover the operational costs or too high prices resulting in user churn. My proposed price-incentive resource auction mechanism targets to either maximize the CSP's service revenue, or stimulate maximum users willing to purchase cloud resources, on the premise of a minimum proﬁt rate guaranteed for the CSP. It is also expected to provide budge balance and truthfulness guarantee, and satisfy the envy-freeness. To carry out the above objectives, I define the user utility function reﬂecting the complicated user interest, and formulate our resource pricing and auction problem as a BP problem. Regarding the NP-hardness of optimization problem and the non-convexity of user utility, I present the counterpart computational-efﬁcient heuristic algorithm. The above work is presented in two research papers differentially standing in the place of cloud users or CSP, accepted for publication in the IEEE Transactions on Network and Service Management (TNSM).
 
+<div class="row justify-content-md-center">
+   <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/resource_pricing.png' | relative_url }}" alt="Figure: Cloud Resource Pricing, and Demand Allocation"/>
+</div>
+<br>
 
-In this line of research, we are seeking novel model training and resource management solutions for such deep neural network systems, paritularly at the edge device.
-
-Topics include:
--  Lego DNN: dynamically scale the network sizes and hyperparameters in response to the changes of learning tasks and domain shifts.
--	[Hyperparameter and system tuning](#Tune): jointly tuning network hyperparameters, mini-batch sizes, and system parameters such as parallel threads.
--	SlimML: exploring different data subsampling strategies to search for an optimal tradeoff between learning accuracy and resource efficiency.
-
-<figure>
- <a href="#top">
-  <img src="../assets/img/top.png" alt="top" style="float: right;" width="30" height="30">
- </a>
-</figure>
--->
-
-
-## Robust and Adversarial Machine Learning<a name="Robust"></a> 
-
-**Research questions**: Can today's deep neural networks handle noisy data sets, namely corrupted inputs and labels? How to design novel learning algorithms to dstill the data quality and enhance the robustness of learning models when encountering noisy and adversarial input? 
-
-{: .box-note}
-We are working on noise resilient learning frameworks, leveraging adversarial examples, expert judgement, and robust loss functions.
+<h4>Research Outputs:</h4>
+<div class="publications" style="margin: 0;">
+{% bibliography -f {{bib_file}} -q @*[doi=10.1109/TNSM.2021.3085519]* %}
+{% bibliography -f {{bib_file}} -q @*[doi=10.1109/TNSM.2020.3036989]* %}
+</div>
 
 <figure>
  <a href="#top">
   <img src="../assets/img/top.png" alt="top" style="float: right;" width="30" height="30">
  </a>
 </figure>
+<br>
+
+<a name="fog"></a> 
+<h3>Fog Computing, and Mobile Edge Computing</h3>
+
+With the increasing prevalence of online services mounted on IoT devices, edge computing gains signiﬁcant momentum over conventional cloud-centric architecture. Edge servers are geographically deployed in a distributed manner nearby IoT devices, which not only frees online services from the high hardware requirement but also sharply reduces network latency experienced by end users. Given this, I study the QoS evaluation and optimization issues with regard to the edge scenario, specifically covering the following five aspects:
+- Design queueing network models for QoS evaluation of IoT services in edge-cloud systems, published in the International Journal of Web and Grid Services (IJWGS).
+- Conduct reliability-aware QoS evaluation for recoverable IoT edge services using the modeling techniques of generalized stochastic Petri net (GSPN), presented in the IEEE SCC 2017.
+- Manipulate the MDP-based resource allocation and task scheduling in edge computing paradigm weighing energy costs against QoS requirements, presented in the IEEE ISPA 2017.
+- Study the dynamic QoS-aware task scheduling and resource management problem in mobile edge computing by designing an efficient optimization algorithm with the effective and efficient LP relaxation techniques, published in the Peer-to-Peer Networking and Applications (PPNA).
+- Adopt the potential game theory to solve the edge resource allocation problem with Quality of Experience (QoE) maximization in a decentralized manner, published in the IEEE Transactions on Cognitive Communications and Networking (TCCN).
+
+
+<div class="row justify-content-md-center">
+   <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/edge_computing.png' | relative_url }}" alt="Figure: Fog Computing, and Mobile Edge Computing"/>
+</div>
+<br>
+
+<h4>Research Outputs:</h4>
+<div class="publications" style="margin: 0;">
+{% bibliography -f {{bib_file}} -q @*[doi=10.1109/TCCN.2021.3118460]* %}
+{% bibliography -f {{bib_file}} -q @*[doi=10.1007/s12083-020-00880-y]* %}
+{% bibliography -f {{bib_file}} -q @*[doi=10.1504/IJWGS.2018.090742]* %}
+{% bibliography -f {{bib_file}} -q @*[doi=10.1109/ISPA/IUCC.2017.00129]* %}
+{% bibliography -f {{bib_file}} -q @*[doi=10.1109/SCC.2017.70]* %}
+</div>
+
+<figure>
+ <a href="#top">
+  <img src="../assets/img/top.png" alt="top" style="float: right;" width="30" height="30">
+ </a>
+</figure>
+<br>
+
+<a name="edge_ai"></a> 
+<h3>Edge Intelligence, and Federated Learning</h3>
+
+The convergence of edge computing and artificial intelligence (AI) gives rise to Edge-AI, which enables the deployment of real-time AI applications and services at the network edge. One of the fundamental research issues in Edge-AI is edge inference acceleration, which aims to realize low-latency high-accuracy Deep Neural Network (DNN) inference and training services by leveraging the fine-grained offloading of partitioned DNN computation tasks from end devices to edge servers. However, the existing research has yet to take a more practical Edge-AI ecosystem perspective, which should consider not only the personalized performance requirements of AI users (e.g., DNN accuracy, runtime latency, and prediction task complexity), but also the incentives (e.g., revenue) for AI service providers offering edge inference services. To bridge this gap, I design the Auction-based Incentive Mechanism (AERIA) for edge inference and training tasks to tackle the multi-dimensional optimization problem of DNN model partition, edge inference pricing, and resource allocation. We investigate the device-edge synergistic inference/training scheme for on-demand DNN processing acceleration, and analyze the auction dynamics amongst the AI service provider, AI users and edge infrastructure provider. Owing to the strategic mechanism design, the Edge-AI ecosystem attains several desirable properties, including competitiveness in revenue maximization, incentive compatibility, and envy-freeness, which are crucial to maintain the effectiveness, truthfulness, and fairness of our multi-dimensional optimization outcomes. This work is considered for acceptance in the IEEE/ACM Transactions on Networking.
 
 <br>
 
-
-
-
+<div style="text-align: center;">
+<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/edge_ai.png' | relative_url }}" alt="Figure: Cloud Resource Pricing, and Demand Allocation"/>
+</div>
 
 <br>
-
-
-
-<!--
-## Synthetic Data Generator<a name="GAN"></a> 
------
-**Research questions**: While big data is powering up the deep learning models, it is costly and inevitably intrudes privacy to curate such data. Synthetically generated data not only alleviates the cost of collecting data but also overcome the privacy concerns and legislation boundary. How to generate synthetic data that fulfilll the requirements of data similarity, analysis utility, privacy and generalization?
-
-{: .box-note}
-We are working on various synthetic generation methods for table and image data, e.g., generative adversarial networks. We are in collaboration with companies in the finance sector. 
-
-
-<figure>
- <a href="#top">
-  <img src="../images/up.png" alt="top" style="float: right;" width="30" height="22">
- </a>
-</figure>
-
--->
-<br>
-
-
-## Federated Learning Systems: Incentive and Backdoor<a name="Federated"></a> 
------
-**Research questions**: Federated learning framework preserves privacy by design as user data stays on devices. How to provide the incentives for users at the federated learning systems? How to value the contributed models from other users? Can we trust the models provided by other users?
-
-{: .box-note}
-We are designing incentive mechanisms and defense strategies against backdoor attacks for the federated learning systems, from Bayesian models to deep neuralnetworks.
-
+<h4>Research Outputs:</h4>
+<div class="publications" style="margin: 0;">
+{% bibliography -f {{bib_file}} -q @*[doi=ToN]* %}
+</div>
 
 <figure>
  <a href="#top">
   <img src="../assets/img/top.png" alt="top" style="float: right;" width="30" height="30">
  </a>
 </figure>
-
-<br>
-
-## Deep Model Inferences on Edge Devices<a name="EdgeInf"></a> 
-----
-**Research questions**: How to choose suitable trained models from the plethoral of existing ones and deploy at the edge devices? How to optimize the performance of deep models on the edge devices? Can today's edge devices efficiently execute multiple DNNs at the same time, e,.g., extracting information of people, aged and gender from images?
-
-{: .box-note}
-We are working on various scheduling and model selection algorithms to adaptively run multiple DNNs on resource limited edge devices, in fulfilling various users’ requirements. 
- 
-
-<figure>
- <a href="#top">
-  <img src="../assets/img/top.png" alt="top" style="float: right;" width="30" height="30">
- </a>
-</figure>
-
-
-<br>
-
-
-## Optimization for Machine Learning Services and Clusters<a name="Tune"></a> 
------
-**Research questions**: Training deep models consumes tremendous computing time and resources; however tuning the hyperparameter of deep models is even multiple fold higher. Can one design efficient and accurate tuning framework for deep neural networks such that the optimal parameters can be found at minimum computational resources?
-
-{: .box-note}
-We are working on accelerating processing strategies that only execute critical data and leverage the workload similarities when tuning hyperparameters and training a wide range of ML models.  
-
-
-<figure>
- <a href="#top">
-  <img src="../assets/img/top.png" alt="top" style="float: right;" width="30" height="30">
- </a>
-</figure>
-
-<br>
-
-## Fair Information Maximization on Social Media<a name="FairIM"></a> 
------
-**Research questions**: Users on social media with high visibility are often selected as seeds to spread information and affect their adoption in target groups. Even though female users are more active on social media than male users, males are regarded as influential in various centrality measures.
-
-{: .box-note}
-We are trying to answer how gender differences and similarities can impact the information spreading process on social media. We are developing  disparity-aware seeding algorithms.
-
-
-<figure>
- <a href="#top">
-  <img src="../assets/img/top.png" alt="top" style="float: right;" width="30" height="30">
- </a>
-</figure>
-
-<br>
-
-
-<!--(## Sparse Tucker Decomposition <a name="Tucker"></a> 
------
-**Research questions**: Sparse Tucker decomposition (sTD) is widely used in low-rank representation learning for sparse big data analysis. Due to the entanglement problem  of  core  tensor  and  factor  matrices,  the  computational process  for  STD  faces  the challenge of   intermediate  variables  explosion. How to design an efficient optimization algorithm for STD without degrading approximation accuracy?
-
-{: .box-note}
-We are working on various optimization techniques to accelerate the sparse matrix factorization, particularly for tucker tensor decomposition.)
--->
-
