@@ -1,9 +1,7 @@
 # --- Basic options --- #
 
 assets:
-    external:
-      uglifier:
-        harmony: true
+  js_compressor: uglifier
 
 encoding: utf-8
 
