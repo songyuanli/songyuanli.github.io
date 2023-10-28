@@ -1,8 +1,5 @@
 # --- Basic options --- #
 
-assets:
-  js_compressor: uglifier
-
 encoding: utf-8
 
 # Name of website
