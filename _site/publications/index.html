@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2020 -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Songyuan Li | Uni. Exeter</title>
+  
+  
+  <meta name="author" content="Songyuan Li @ Uni. Exeter">
+  
+  
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Songyuan Li | Uni. Exeter - Researcher in High Performance Computing and Networking" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;700&amp;display=swap">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/main.css">
+    
+  
+
+  
+
+  
+
+  <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Songyuan Li | Uni. Exeter">
+  
+
+   
+  <meta property="og:description" content="Publications Click here to see my Google Scholar profile. Journal and conference rankings are based on CORE (The Computing Research and Education Association of Australasia). Journal: A+: top 7%, A: top 17%; Conferences: A+: top 4%, A: top 14%. {% for y in page.years %} {{y}} {% bibliography -f papers...">
+  
+
+
+  
+  <meta property="og:type" content="website">
+  
+
+  
+  <meta property="og:url" content="http://localhost:4000/publications/">
+  <link rel="canonical" href="http://localhost:4000/publications/">
+  
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/assets/img/SongyuanLi-sqr.jpg">
+  
+
+
+  <!-- Twitter summary cards -->
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+  
+  <meta name="twitter:title" content="Songyuan Li | Uni. Exeter">
+  
+
+  
+  <meta name="twitter:description" content="Publications Click here to see my Google Scholar profile. Journal and conference rankings are based on CORE (The Computing Research and Education Association of Australasia). Journal: A+: top 7%, A: top 17%; Conferences: A+: top 4%, A: top 14%. {% for y in page.years %} {{y}} {% bibliography -f papers...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/assets/img/SongyuanLi-sqr.jpg">
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom "><a class="navbar-brand navbar-brand-logo" href="http://localhost:4000/"><img alt="Songyuan Li | Uni. Exeter Logo" src="/assets/img/uoe-logo.svg"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/publications">Publications</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/research">Overview</a>
+                  <a class="dropdown-item" href="/projects">Projects</a>
+                  <a class="dropdown-item" href="/talks">Talks</a>
+                  <a class="dropdown-item" href="/services">Services</a>
+            </div>
+          </li>
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Songyuan Li</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/index.html">About Me</a>
+                  <a class="dropdown-item" href="/biography">Bio &amp; CV</a>
+                  <a class="dropdown-item" href="/awards">Awards</a>
+                  <a class="dropdown-item" href="/teaching">Teaching</a>
+                  <a class="dropdown-item" href="/contact">Contact Me</a>
+            </div>
+          </li>
+        </ul>
+  </div>
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navbar avatar" class="avatar-img" src="/assets/img/SongyuanLi-sqr.jpg">
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+<div class="intro-header"></div>
+
+
+
+<div class="container-fluid" role="main">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <h1 style="text-align: center;color: #003c3c;">Publications</h1>
+
+<p>Click <a href="https://scholar.google.com/citations?user=cESBqqkAAAAJ" rel="external nofollow noopener" target="_blank">here</a> to see <b>my Google Scholar profile</b>.</p>
+
+<h4 style="font-weight: normal;">Journal and conference rankings are based on <a href="https://www.core.edu.au/conference-portal" rel="external nofollow noopener" target="_blank">CORE (The Computing Research and Education Association of Australasia)</a>.</h4>
+<li> Journal: A+: top 7%, A: top 17%;</li>
+<li> Conferences: A+: top 4%, A: top 14%.</li>
+
+<div class="publications">
+
+
+  <h2 class="year">2023</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">[J] ToN’23</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Songyuan2023Dynamic" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">[A+] Dynamic Pricing for On-Demand DNN Inference in the Edge-AI Market</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Songyuan Li</em>, Jia Hu, Geyong Min, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Haojun Huang, Jiwei Huang' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>IEEE/ACM Transactions on Networking (Under Review)</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The convergence of edge computing and artificial intelligence (AI) gives rise to Edge-AI, which enables the deployment of real-time AI applications and services at the network edge. One of the fundamental research issues in Edge-AI is edge inference acceleration, which aims to realize low-latency high-accuracy Deep Neural Network (DNN) inference services by leveraging the fine-grained offloading of partitioned inference tasks from end devices to edge servers. However, the existing research has yet to take a more practical EdgeAI market perspective, which should consider not only the personalized inference requirements of AI users (e.g., inference accuracy, latency, and task complexity), but also the revenue incentives for AI service providers offering edge inference services. To bridge this gap, we propose an Auction-based Edge Inference Pricing Mechanism (AERIA) for revenue maximization to tackle the multi-dimensional optimization problem of DNN model partition, edge inference pricing, and resource allocation. We investigate the multi-exit device-edge synergistic inference scheme for on-demand DNN inference acceleration, and analyse the auction dynamics amongst the AI service provider, AI users and edge infrastructure provider. Owing to the strategic mechanism design via randomized consensus estimate and cost sharing techniques, the Edge-AI market attains several desirable properties, including competitiveness in revenue maximization, incentive compatibility, and envy-freeness, which are crucial to maintain the effectiveness, truthfulness, and fairness of our auction outcomes. The extensive simulation experiments based on two real-world datasets demonstrate that our AERIA mechanism significantly outperforms several state-of-the-art approaches in revenue maximization, demonstrating the efficacy of AERIA for on-demand DNN inference in the Edge-AI market.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2022</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">[J] TCCN’22</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Li2022QoE" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">QoE-DEER: A QoE-Aware Decentralized Resource Allocation Scheme for Edge Computing</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Songyuan Li</em>, Jiwei Huang, Jia Hu, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Bo Cheng' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>IEEE Transactions on Cognitive Communications and Networking</em>, Jun 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://ieeexplore.ieee.org/document/95629770" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/assets/pdf/Songyuan_TCCN2022_QoE.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>With the increasing prevalence of online services mounted on IoT devices, edge computing gains significant momentum over conventional cloud-centric architecture. Edge servers are geographically deployed in a distributed manner nearby IoT devices, which not only frees online services from the high hardware requirement but also sharply reduces network latency experienced by IoT users. Recent works have extensively studied the problem of edge resource management and request scheduling to achieve high Quality of Service (QoS) with low latency, but there has been little focus on Quality of Experience (QoE) that an edge resource allocation scheme brings about. In this article, we study the Edge Resource Allocation (ERA) problem across multiple service requests with the objective of overall QoE maximization, which has non-polynomial computational complexity. To attack the  \mathcal NP -hardness of solving the ERA problem, we adopt a game-theoretic approach to formulate the ERA problem as a potential game ERAGame which admits a Nash Equilibrium (NE). Then, we novelly present a decentralized algorithm namely QoE-DEER to find an NE solution which equivalently maximizes the overall QoE as the ERA problem. Finally, the performance and convergence of our algorithm is evaluated both theoretically and experimentally, which indicates its significant advantages over the state-of-the-art approaches.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2021</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">[J] TNSM’21</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Li2021Resource" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Resource Pricing and Demand Allocation for Revenue Maximization in IaaS Clouds: A Market-Oriented Approach</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Songyuan Li</em>, Jiwei Huang, and Bo Cheng</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>IEEE Transactions on Network and Service Management</em>, Sep 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://ieeexplore.ieee.org/document/9445051" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/assets/pdf/Songyuan_TNSM2021_Resource.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>With more users outsourcing their applications to the cloud, resource pricing becomes an important issue for IaaS cloud management. Jointly considering her own bidding budget and the price of cloud resources, each user is self-motivated to purchase cloud resources according to her resource demand which maximizes her own utility. Meanwhile, the cloud service provider (CSP) regulates the price of cloud resources with a certain profitability objective achieved. With an elaborate resource pricing strategy, the goals from users and the CSP are balanced and respectively satisfied to some extent. This article provides an insight into the market-oriented cloud pricing strategy. In specific, we propose an auction market in the IaaS cloud, where multiple users with heterogeneous bidding budgets and QoS requirements subscribe cloud resources according to their resource demands. The resource pricing and demand allocation scheme targeting revenue maximization also satisfies essential properties including budget feasibility, incentive compatibility and envy-freeness. To attack the NP-hardness and non-convexity of revenue maximization problem, we design a price-incentive resource auction mechanism namely RARM, which preserves an ( 1+α) approximation ratio on revenue maximization. Finally, we evaluate our RARM mechanism based on the real-world dataset to certify the efficacy of our proposed approach.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">[J] TNSM’21</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Li2021Price" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">A Price-Incentive Resource Auction Mechanism Balancing the Interests Between Users and Cloud Service Provider</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Songyuan Li</em>, Jiwei Huang, and Bo Cheng</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>IEEE Transactions on Network and Service Management</em>, Jun 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://ieeexplore.ieee.org/document/9253697" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/assets/pdf/Songyuan_TNSM2021_Price.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>For a cloud service provider, it necessitates an emerging cloud ecosystem to consolidate the existing users and attract more potential users, further gaining its market share. Therefore, in this article, we design a price-incentive resource auction mechanism in cloud environment. In response to the cloud resource price, each user synthesizes her bidding budget and QoS requirement, and purchases cloud resources according to her resource demand in a strategic manner. The cloud service provider, meanwhile, can regulate the resource demands of users through conducting a market-based pricing strategy, against too low prices to cover the operational costs (i.e., energy costs) or too high prices resulting in user churn. In virtue of an elaborate market-based pricing strategy, the interests of users and the cloud service provider are balanced. Our price-incentive resource auction mechanism targets to stimulate maximum users willing to purchase resources and perform their applications at the cloud, on the premise of a minimum profit rate guaranteed for the cloud service provider. It is also able to provide budge balance and truthfulness guarantee, and satisfy the envy-freeness. In order to carry out the above objectives, we carefully design the user utility function reflecting the complicated user interest, and formulate our resource pricing and auction problem as a bin packing problem, which has non-polynomial computational complexity. Regarding the NP-hardness of optimization problem and the concavity of user utility, we present a computational-efficient ( 1+ε)-approximate algorithm namely PIRA. Finally, we conduct simulations based on the real-world dataset to validate the effectiveness of our proposed approach.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+  <h2 class="year">2020</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">[J] PPNA’20</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Huang2020Revenue" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Revenue-optimal Task Scheduling and Resource Management for IoT Batch Jobs in Mobile Edge Computing</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Jiwei Huang, <em>Songyuan Li</em>, and Ying Chen</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Peer-to-Peer Networking and Applications</em>, Sep 2020
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://link.springer.com/article/10.1007/s12083-020-00880-y" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/assets/pdf/Jiwei_PPNA2020_Revenue.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>With the growing prevalence of Internet of Things (IoT) devices and technology, a burgeoning computing paradigm namely mobile edge computing (MEC) is delicately proposed and designed to accommodate the application requirements of IoT scenario. In this paper, we focus on the problems of dynamic task scheduling and resource management in MEC environment, with the specific objective of achieving the optimal revenue earned by edge service providers. While the majority of task scheduling and resource management algorithms are formulated by an integer programming (IP) problem and solved in a dispreferred NP-hard manner, we innovatively investigate the problem structure and identify a favorable property namely totally unimodular constraints. The totally unimodular property further helps to design an equivalent linear programming (LP) problem which can be efficiently and elegantly solved at polynomial computational complexity. In order to evaluate our proposed approach, we conduct simulations based on real-life IoT dataset to verify the effectiveness and efficiency of our approach.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2019</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">[C] ICWS’19</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Li2019FASS" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">[A] FASS: A Fairness-Aware Approach for Concurrent Service Selection with Constraints</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Songyuan Li</em>, Jiwei Huang, Bo Cheng, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Lizhen Cui, Yuliang Shi' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In IEEE International Conference on Web Services (ICWS)</em>, Jul 2019
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://ieeexplore.ieee.org/document/8818407" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/assets/pdf/Songyuan_ICWS2019_FASS.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The increasing momentum of service-oriented architecture has led to the emergence of divergent delivered services, where service selection is meritedly required to obtain the target service fulfilling the requirements from both users and service providers. Despite many existing works have extensively handled the issue of service selection, it remains an open question in the case where requests from multiple users are performed simultaneously by a certain set of shared candidate services. Meanwhile, there exist some constraints enforced on the context of service selection, e.g. service placement location and contracts between users and service providers. In this paper, we focus on the QoS-aware service selection with constraints from a fairness aspect, with the objective of achieving max-min fairness across multiple service requests sharing candidate service sets. To be more specific, we formulate this problem as a lexicographical maximization problem, which is far from trivial to deal with practically due to its inherently multi-objective and discrete nature. A fairness-aware algorithm for concurrent service selection (FASS) is proposed, whose basic idea is to iteratively solve the single-objective subproblems by transforming them into linear programming problems. Experimental results based on real-world datasets also validate the effectiveness and practicality of our proposed approach.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2018</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">[J] IJWGS’18</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Huang2018Performance" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Performance Modelling and Analysis for IoT Services</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Jiwei Huang, <em>Songyuan Li</em>, Ying Chen, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Junliang Chen' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>International Journal of Web and Grid Services</em>, Jan 2018
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://www.inderscience.com/info/inarticle.php?artid=90742" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/assets/pdf/Jiwei_IJWGS2018_Performance.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>With the growing popularity of Internet of Things (IoT) services on the internet, performance has become an important issue in the design and optimisation of IoT service systems. This paper proposes a theoretical approach of performance evaluation for IoT services, which is expected to provide a mathematical prediction on performance metrics at the design phase before system implementation. In specific, we first formulate an atomic service by a queueing system, and then an IoT system can be modelled by a queueing network. Detailed quantitative model analyses under different request arrival distributions are presented, and performance metrics are obtained. Furthermore, we briefly study two popular problems which are resource management and task scheduling in order to illuminate how the models and analytical results can be applied in the design and optimization of IoT systems. Finally, simulation experiments based on real-world data are conducted to validate the effectiveness of our approach.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2017</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">[C] SCC’17</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Li2017Energy" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Energy Efficient Resource Management and Task Scheduling for IoT Services in Edge Computing Paradigm</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Songyuan Li</em>, and Jiwei Huang</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA)</em>, Dec 2017
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://ieeexplore.ieee.org/document/8367359" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/assets/pdf/Songyuan_ISPA2017_Energy.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>With the growing popularity of the Internet of Things (IoT), energy efficiency has been a critical concern during the design and development of IoT service systems. Meanwhile, edge computing has drawn significant attention as a burgeoning computing paradigm. This paper studies the energy efficiency issue of IoT systems by proposing a joint scheme of resource allocation and task scheduling under the edge computing paradigm. Specifically, dynamic processes of the IoT services and system are formulated by generalized queueing network models, based on which quantitative analyses of performance and energy consumption are conducted. The resource management and task scheduling are formulated by Markov Decision Process (MDP), which can balance the tradeoff between energy costs and QoS requirements. To attack the challenge of MDP search space explosion due to the large scale of IoT systems, Ordinal Optimization (OO) techniques are applied to the MDP algorithms, which are able to significantly narrow the search of MDP by slightly softening the optimization objective to a good enough subset. Finally, we conduct simulation experiments based on real-world IoT data. Evaluations and comparisons demonstrate that our approach is effective and efficient in practice.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">[C] SCC’17</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Li2017GSPN" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">GSPN-Based Reliability-Aware Performance Evaluation of IoT Services</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Songyuan Li</em>, and Jiwei Huang</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In IEEE International Conference on Services Computing (SCC)</em>, Jun 2017
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://ieeexplore.ieee.org/document/8035023" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/assets/pdf/Songyuan_SCC2017_GSPN.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>With the growing popularity of Internet of Things (IoT) services being applied in several aspects of real-life applications, performance has become an important requirement. Meanwhile, the techniques for reliability enhancement such as virtual machine migration and recovery also have significant impact on end-to-end performance. This paper proposes a predictive approach of reliability-aware performance evaluation for recoverable IoT services using the modeling techniques of generalized stochastic Petri net (GSPN). Mathematical models formulating the dynamics of both server clusters and IoT systems are presented, and quantitative analyses of performance metrics are provided. Empirical experiments based on real-world data obtained from IoT services and cloud systems are conducted, and parameter settings as well as experimental results are discussed in detail.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+
+</div>
+
+
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      
+<ul class="list-inline text-center footer-links">
+<li class="list-inline-item">
+    <a href="mailto:S.Y.Li@exeter.ac.uk" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li>
+<li class="list-inline-item">
+    <a href="https://linkedin.com/in/songyuan-li-02b29513a" title="LinkedIn" rel="external nofollow noopener" target="_blank">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">LinkedIn</span>
+   </a>
+  </li>
+<li class="list-inline-item">
+   <a href="https://orcid.org/0000-0002-8688-1026" title="ORCID" rel="external nofollow noopener" target="_blank">
+     <span class="fa-stack fa-lg" aria-hidden="true">
+       <i class="fas fa-circle fa-stack-2x"></i>
+       <i class="fab fa-orcid fa-stack-1x fa-inverse"></i>
+     </span>
+     <span class="sr-only">ORCID</span>
+   </a>
+ </li>
+<li class="list-inline-item">
+    <a href="https://scholar.google.com/citations?user=citations?hl=en&amp;user=cESBqqkAAAAJ#" title="Google Scholar" rel="external nofollow noopener" target="_blank">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="ai ai-google-scholar-square ai-stack-1x ai-inverse"></i>
+      </span>
+      <span class="sr-only">Google Scholar</span>
+    </a>
+  </li>
+<li class="list-inline-item">
+    <a href="https://www.researchgate.net/profile/Songyuan-Li-7" title="Research Gate" rel="external nofollow noopener" target="_blank">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-researchgate fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">ResearchGate</span>
+   </a>
+  </li>
+</ul>
+
+      
+      <p class="copyright text-muted">
+      
+        Songyuan Li @ Uni. Exeter
+         • 
+      
+      2018-2023
+
+      
+         • 
+        <a href="http://localhost:4000/">S.Y.Li@exeter.ac.uk</a>
+      
+
+      
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+  
+    
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/main.js"></script>
+    
+  
+
+
+
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@/dist/jquery.min.js" integrity="" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@/dist/js/bootstrap.bundle.min.js" integrity="" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@/js/mdb.min.js" integrity="" crossorigin="anonymous"></script>
+
+    
+    <!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+
+    
+
+    
+    
+
+  
+  </body>
+</html>
