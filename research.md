@@ -27,8 +27,8 @@ p {
 }
 </style>
 
-<strong><u>At a Glance</u></strong><b>:</b> &nbsp;
-<a href="/research">Research Overview</a>&nbsp; · &nbsp; <a href="/projects">Research Projects</a> &nbsp; · &nbsp; <a href="/publications">Publications</a> &nbsp; · &nbsp; <a href="/talks">Invited Talks</a> &nbsp; · &nbsp; <a href="/services">Professional Services</a>
+<strong><u>Shortcut to</u></strong><b>:</b><br>
+<a href="/research">Research Overview</a> · <a href="/projects">Research Projects</a> · <a href="/publications">Publications</a> · <a href="/talks">Invited Talks</a> · <a href="/services">Professional Services</a>
 
 <h3>Summary</h3>
 <p>My research focus includes</p>
@@ -36,7 +36,7 @@ p {
 - [Web Service Selection, Composition, and Recommendation](#web): QoS evaluation and optimization of workflows, Concurrent service selection based on service ecosystem
 - [Cloud Resource Pricing, and Demand Allocation](#cloud): QoS awareness, Resource management, Task scheduling, Market-oriented cloud resource pricing strategy, Demand response
 - [Fog Computing, and Mobile Edge Computing](#fog): QoS/QoE awareness, Edge resource management, Task routing & scheduling, Multi-user/service provider gaming, Efficient/Decentralized solution
-- [Edge Intelligence, and Federated Learning](#edge_ai): Edge Intelligence, and Federated Learning: Synergistic DNN inference and training, Multi-exit DNN inference at edge, Edge-AI market design
+- [Edge Intelligence, and Distributed Machine Learning](#edge_ai): Edge Intelligence, and Federated Learning: Synergistic DNN inference and training, Multi-exit DNN inference at edge, Edge-AI market design
 
 <a name="web"></a> 
 <h3>Web Service Selection, Composition, and Recommendation</h3>
@@ -117,7 +117,7 @@ With the increasing prevalence of online services mounted on IoT devices, edge c
 <br>
 
 <a name="edge_ai"></a> 
-<h3>Edge Intelligence, and Federated Learning</h3>
+<h3>Edge Intelligence, and Distributed Machine Learning</h3>
 
 The convergence of edge computing and artificial intelligence (AI) gives rise to Edge-AI, which enables the deployment of real-time AI applications and services at the network edge. One of the fundamental research issues in Edge-AI is edge inference acceleration, which aims to realize low-latency high-accuracy Deep Neural Network (DNN) inference and training services by leveraging the fine-grained offloading of partitioned DNN computation tasks from end devices to edge servers. However, the existing research has yet to take a more practical Edge-AI ecosystem perspective, which should consider not only the personalized performance requirements of AI users (e.g., DNN accuracy, runtime latency, and prediction task complexity), but also the incentives (e.g., revenue) for AI service providers offering edge inference services. To bridge this gap, I design the Auction-based Incentive Mechanism (AERIA) for edge inference and training tasks to tackle the multi-dimensional optimization problem of DNN model partition, edge inference pricing, and resource allocation. We investigate the device-edge synergistic inference/training scheme for on-demand DNN processing acceleration, and analyze the auction dynamics amongst the AI service provider, AI users and edge infrastructure provider. Owing to the strategic mechanism design, the Edge-AI ecosystem attains several desirable properties, including competitiveness in revenue maximization, incentive compatibility, and envy-freeness, which are crucial to maintain the effectiveness, truthfulness, and fairness of our multi-dimensional optimization outcomes. This work is considered for acceptance in the IEEE/ACM Transactions on Networking.
 
