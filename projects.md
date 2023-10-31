@@ -13,7 +13,7 @@ layout: page
 
 <li><p>
 <b>Theory and Approaches of Formal Modeling for Quality Traceability of Agricultural Products</b><br>
-<i>Beijing Natural Science Foundation (No. 4202066)</i><br><u><i>Role:</i></u> Team Member, Jan. 2020 - Dec. 2022
+<i>Beijing Natural Science Foundation (No. 4202066)</i><br><u><i>Role:</i></u> Principal Participant, Jan. 2020 - Dec. 2022
 </p></li>
 
 <li><p>
