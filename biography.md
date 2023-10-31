@@ -11,7 +11,7 @@ p {
 }
 </style>
 
-Songyuan Li is currently a Ph.D. candidate in Computer Science within the Faculty of Environment, Science and Economy at the University of Exeter, U.K., supervised by Dr. Jia Hu and Prof. Geyong Min. His current research interests include distributed systems and networks, services/cloud/edge Computing, applied machine learning, and QoS evaluation and optimization.
+Songyuan Li is currently a Ph.D. candidate in Computer Science within the Faculty of Environment, Science and Economy at the University of Exeter, U.K., supervised by Assoc. Prof. Jia Hu and Prof. Geyong Min. His current research interests include distributed systems and networks, services/cloud/edge Computing, applied machine learning, and QoS evaluation and optimization.
 
 Before that, Songyuan received the B.Eng. and M.Eng. degrees in Computer Science and Technology from the Beijing University of Posts and Telecommunications, China, in 2018 and 2021, respectively. During his Master’s journey, he worked with Prof. Jiwei Huang and Prof. Bo Cheng, at the State Key Laboratory of Networking and Switching Technology, Beijing, China.
 
