@@ -26,6 +26,8 @@ h3 {
 <ul>
 <li><b>Publicity Chair</b> of ACM International Conference on Software Engineering and Development, ICSED 2023</li>
 <li><b>Local Arrangement Chair</b> of International Conference on Ubiquitous Security (Springer), UbiSec 2023</li>
+<li><b>Session Chair</b> of IEEE International Conference on Trust, Security and Privacy in Computing and Communications, TrustCom 2023</li>
+<li><b>Session Chair</b> of International Symposium on Intelligent and Trustworthy Computing, Communications, and Networking, ITCCN 2023</li>
 </ul>
   
 <h3>Technical Program Committees</h3>
