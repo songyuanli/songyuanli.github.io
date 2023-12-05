@@ -26,18 +26,18 @@ h3 {
 </p></li>
 
 <li><p>
-<b>ECMM445 - Learning from Data</b> (Postgraudate Level)<br>Autumn 2023, Department of Computer Science, University of Exeter, U.K.<br><u><i>Role:</i></u> Co-design the practical session, deliver workshops, and coursework & exam assessment.<br>
+<b>Learning from Data</b> (Postgraudate Level)<br>ECMM445, Autumn 2023, Department of Computer Science, University of Exeter, U.K.<br><u><i>Role:</i></u> Co-design the practical session, deliver workshops, and coursework & exam assessment.<br>
 </p></li>
 
 <li><p>
-<b>ECM3420 - Learning from Data</b> (3rd-year Undergraduate Level)<br>Autumn 2023, Department of Computer Science, University of Exeter, U.K.<br><u><i>Role:</i></u> Co-design the practical session, deliver workshops, and coursework & exam assessment.<br>
+<b>Learning from Data</b> (3rd-year Undergraduate Level)<br>ECM3420, Autumn 2023, Department of Computer Science, University of Exeter, U.K.<br><u><i>Role:</i></u> Co-design the practical session, deliver workshops, and coursework & exam assessment.<br>
 </p></li>
 
 <li><p>
-<b>COMM423DA - Work-based Research Project</b> (Postgraduate Level - Apprenticeship Programme)<br>Autumn 2023, Department of Computer Science, University of Exeter, U.K.<br><u><i>Role:</i></u> Coursework & exam assessment.<br>
+<b>Work-based Research Project</b> (Postgraduate Level - Apprenticeship Programme)<br>COMM423DA, Autumn 2023, Department of Computer Science, University of Exeter, U.K.<br><u><i>Role:</i></u> Coursework & exam assessment.<br>
 </p></li>
 
 <li><p>
-<b>ECM2427 - Outside the Box: Computer Science Research and Applications</b> (2nd-year Undergraduate Level)<br>Spring 2024, Department of Computer Science, University of Exeter, U.K.<br><u><i>Role:</i></u> Coursework & exam assessment.<br>
+<b>Outside the Box: Computer Science Research and Applications</b> (2nd-year Undergraduate Level)<br>ECM2427, Spring 2024, Department of Computer Science, University of Exeter, U.K.<br><u><i>Role:</i></u> Coursework & exam assessment.<br>
 </p></li>
   
