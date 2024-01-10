@@ -40,4 +40,8 @@ h3 {
 <li><p>
 <b>Outside the Box: Computer Science Research and Applications</b> (2nd-year Undergraduate Level)<br>ECM2427, Spring 2024, Department of Computer Science, University of Exeter, U.K.<br><u><i>Role:</i></u> Coursework & exam assessment.<br>
 </p></li>
+
+<li><p>
+<b>Statistical Data Modelling</b> (Postgraudate Level)<br>MTHM506 & COMM511, Spring 2024, Departments of Computer Science & Mathematics, University of Exeter, U.K.<br><u><i>Role:</i></u> TBD.<br>
+</p></li>
   
