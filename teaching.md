@@ -42,6 +42,6 @@ h3 {
 </p></li>
 
 <li><p>
-<b>Statistical Data Modelling</b> (Postgraudate Level)<br>MTHM506 & COMM511, Spring 2024, Departments of Computer Science & Mathematics, University of Exeter, U.K.<br><u><i>Role:</i></u> TBD.<br>
+<b>Statistical Data Modelling</b> (Postgraudate Level)<br>COMM511 & MTHM506, Spring 2024, Departments of Computer Science & Mathematics, University of Exeter, U.K.<br><u><i>Role:</i></u> TBD.<br>
 </p></li>
   
