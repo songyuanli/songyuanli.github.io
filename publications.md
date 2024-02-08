@@ -1,7 +1,7 @@
 ---
 layout: page
 description: 
-years: [2023, 2022, 2021, 2020, 2019, 2018, 2017]
+years: [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017]
 ---
 
 <h1 style="text-align: center;color: #003c3c;">Publications</h1>
