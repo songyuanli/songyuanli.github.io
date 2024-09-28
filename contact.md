@@ -23,16 +23,16 @@ p {
 
 <h3>Office Location</h3>
 Department of Computer Science<br>
-Innovation Centre A1<br>
+Room 252, Harrison Building<br>
 University of Exeter - Streatham Campus<br>
-Exeter EX4 4RN, U.K.<br><br>
+Exeter EX4 4PY, U.K.<br><br>
 
 <h3>Postal Mail Address</h3>
 Songyuan Li<br>
-Innovation Centre<br>
+Harrison Building<br>
 University of Exeter<br>
-Rennes Drive<br>
-Exeter EX4 4RN, U.K.<br><br>
+North Park Road<br>
+Exeter EX4 4PY, U.K.<br><br>
 
 <h3>Email Address</h3>
 S.Y.Li at exeter.ac.uk<br>
