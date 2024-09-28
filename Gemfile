@@ -24,6 +24,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'ffi', '1.16.3'
 end
 group :other_plugins do
     gem 'httparty'
