@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   build:
     name: Build Jekyll
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Build the site in the jekyll/builder container
