@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 
+gem 'uri', '0.10.0.2'
 gem "rexml"
 gem "kramdown-parser-gfm"
 gem "kramdown"
