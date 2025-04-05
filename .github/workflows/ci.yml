@@ -2,11 +2,16 @@ name: Beautiful Jekyll CI
 on: [push, pull_request]
 jobs:
   build:
+    if: true
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-20.04, ubuntu-22.04, ubuntu-24.04, ubuntu-22.04-arm, ubuntu-24.04-arm, macos-13, macos-14 ]
+        ruby: [ruby-3.1.7, ruby-3.2.8]
     name: Build Jekyll
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
-      - uses: ruby/setup-ruby@086ffb1a2090c870a3f881cc91ea83aa4243d408 # v1.195.0
       - name: Build the site in the jekyll/builder container
         run: |
           export JEKYLL_VERSION=3.8
