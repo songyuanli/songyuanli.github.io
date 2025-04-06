@@ -17,4 +17,4 @@ Before that, Songyuan received the B.Eng. and M.Eng. degrees in Computer Science
 
 Thus far, Songyuan has published several articles in reputable international conferences and journals, including IEEE Transactions on Cognitive Communications and Networking, IEEE Transactions on Network and Service Management, IEEE ICWS, IEEE SCC, IEEE ISPA. He serves as the organization/technical program committee member of many international conferences, such as, IEEE SmartCNS, ACM ICSED, UbiSec, etc. He is also the reviewer for more than 20  international journals and conferences, including IEEE Transactions on Mobile Computing, IEEE Internet of Things Journal, IEEE/ACM CCGrid, IEEE VTC, EAI CollaborateCom, IEEE TrustCom.
 
-<a href="/assets/pdf/Songyuan_CV.pdf">Songyuan’s Curriculum Vitae</a> as of November 2023.
+<a href="/assets/pdf/Songyuan_CV.pdf">Songyuan’s Curriculum Vitae</a> as of April 2025.
